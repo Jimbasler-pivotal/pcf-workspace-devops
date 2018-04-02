@@ -12,8 +12,6 @@ The following sections describe the components from the bottom up.
 
 The **cities-service** subproject is an example of a very simple but fully functional microservice. The microservice is built using http://projects.spring.io/spring-boot[Spring Boot]. It uses http://projects.spring.io/spring-data-jpa[Spring Data JPA] to access a database and http://projects.spring.io/spring-data-rest[Spring Data REST] to expose the database contents via a REST API. http://cloud.spring.io/spring-cloud-connectors[Spring Cloud Connectors] is used to create the database connection from information exposed by the cloud environment.
 
-This subproject also provides a link:cities-service/demo-script.adoc[script] that can be used to demonstrate construction and deployment of a microservice from scratch with just a few source code files.
-
 **Key concepts:**
 
 * Simple application configuration using Spring Boot
